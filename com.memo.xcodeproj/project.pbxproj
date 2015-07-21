@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851277AF1B5C972A006B87C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 851277AE1B5C972A006B87C5 /* main.m */; };
+		851277B21B5C972A006B87C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 851277B11B5C972A006B87C5 /* AppDelegate.m */; };
+		851277BA1B5C972A006B87C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851277B91B5C972A006B87C5 /* Assets.xcassets */; };
+		851277C91B5C97CB006B87C5 /* FYTaskListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 851277C81B5C97CB006B87C5 /* FYTaskListTableView.m */; };
+		851277CC1B5C97DE006B87C5 /* TaskListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851277CB1B5C97DE006B87C5 /* TaskListTableViewController.m */; };
+		853DA9041B5CBB8600B4211F /* FYTaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 853DA9031B5CBB8600B4211F /* FYTaskView.m */; };
+		853DA9071B5CBCAD00B4211F /* FYTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853DA9061B5CBCAD00B4211F /* FYTaskViewController.m */; };
+		8578F5D51B5E521000A082E6 /* FYTaskListTableView_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8578F5D41B5E521000A082E6 /* FYTaskListTableView_2.m */; };
+		85C01D1E1B5C9FB700064741 /* FYTaskInfoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C01D1D1B5C9FB700064741 /* FYTaskInfoList.m */; };
+		85C01D211B5C9FBF00064741 /* FYPlistIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C01D201B5C9FBF00064741 /* FYPlistIO.m */; };
+		85C01D241B5C9FCA00064741 /* FYFilePathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C01D231B5C9FCA00064741 /* FYFilePathManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		851277AA1B5C972A006B87C5 /* com.memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = com.memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		851277AE1B5C972A006B87C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		851277B01B5C972A006B87C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		851277B11B5C972A006B87C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		851277B91B5C972A006B87C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		851277BE1B5C972A006B87C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851277C71B5C97CB006B87C5 /* FYTaskListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTaskListTableView.h; sourceTree = "<group>"; };
+		851277C81B5C97CB006B87C5 /* FYTaskListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTaskListTableView.m; sourceTree = "<group>"; };
+		851277CA1B5C97DE006B87C5 /* TaskListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListTableViewController.h; sourceTree = "<group>"; };
+		851277CB1B5C97DE006B87C5 /* TaskListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskListTableViewController.m; sourceTree = "<group>"; };
+		853DA9021B5CBB8600B4211F /* FYTaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTaskView.h; sourceTree = "<group>"; };
+		853DA9031B5CBB8600B4211F /* FYTaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTaskView.m; sourceTree = "<group>"; };
+		853DA9051B5CBCAD00B4211F /* FYTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTaskViewController.h; sourceTree = "<group>"; };
+		853DA9061B5CBCAD00B4211F /* FYTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTaskViewController.m; sourceTree = "<group>"; };
+		8578F5D31B5E521000A082E6 /* FYTaskListTableView_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTaskListTableView_2.h; sourceTree = "<group>"; };
+		8578F5D41B5E521000A082E6 /* FYTaskListTableView_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTaskListTableView_2.m; sourceTree = "<group>"; };
+		85C01D1C1B5C9FB700064741 /* FYTaskInfoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTaskInfoList.h; sourceTree = "<group>"; };
+		85C01D1D1B5C9FB700064741 /* FYTaskInfoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTaskInfoList.m; sourceTree = "<group>"; };
+		85C01D1F1B5C9FBF00064741 /* FYPlistIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlistIO.h; sourceTree = "<group>"; };
+		85C01D201B5C9FBF00064741 /* FYPlistIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPlistIO.m; sourceTree = "<group>"; };
+		85C01D221B5C9FCA00064741 /* FYFilePathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYFilePathManager.h; path = ../FYFilePathManager.h; sourceTree = "<group>"; };
+		85C01D231B5C9FCA00064741 /* FYFilePathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYFilePathManager.m; path = ../FYFilePathManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		851277A71B5C972A006B87C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		851277A11B5C972A006B87C5 = {
+			isa = PBXGroup;
+			children = (
+				851277AC1B5C972A006B87C5 /* com.memo */,
+				851277AB1B5C972A006B87C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		851277AB1B5C972A006B87C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				851277AA1B5C972A006B87C5 /* com.memo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		851277AC1B5C972A006B87C5 /* com.memo */ = {
+			isa = PBXGroup;
+			children = (
+				853DA9011B5CB68200B4211F /* Tools */,
+				851277C61B5C9772006B87C5 /* Model */,
+				851277C51B5C9769006B87C5 /* Controller */,
+				851277C41B5C975B006B87C5 /* View */,
+				851277B91B5C972A006B87C5 /* Assets.xcassets */,
+				851277BE1B5C972A006B87C5 /* Info.plist */,
+				851277AD1B5C972A006B87C5 /* Supporting Files */,
+			);
+			path = com.memo;
+			sourceTree = "<group>";
+		};
+		851277AD1B5C972A006B87C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				851277B01B5C972A006B87C5 /* AppDelegate.h */,
+				851277B11B5C972A006B87C5 /* AppDelegate.m */,
+				851277AE1B5C972A006B87C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		851277C41B5C975B006B87C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				851277C71B5C97CB006B87C5 /* FYTaskListTableView.h */,
+				851277C81B5C97CB006B87C5 /* FYTaskListTableView.m */,
+				853DA9021B5CBB8600B4211F /* FYTaskView.h */,
+				853DA9031B5CBB8600B4211F /* FYTaskView.m */,
+				8578F5D31B5E521000A082E6 /* FYTaskListTableView_2.h */,
+				8578F5D41B5E521000A082E6 /* FYTaskListTableView_2.m */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		851277C51B5C9769006B87C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				851277CA1B5C97DE006B87C5 /* TaskListTableViewController.h */,
+				851277CB1B5C97DE006B87C5 /* TaskListTableViewController.m */,
+				853DA9051B5CBCAD00B4211F /* FYTaskViewController.h */,
+				853DA9061B5CBCAD00B4211F /* FYTaskViewController.m */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		851277C61B5C9772006B87C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85C01D1C1B5C9FB700064741 /* FYTaskInfoList.h */,
+				85C01D1D1B5C9FB700064741 /* FYTaskInfoList.m */,
+				85C01D1F1B5C9FBF00064741 /* FYPlistIO.h */,
+				85C01D201B5C9FBF00064741 /* FYPlistIO.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		853DA9011B5CB68200B4211F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				85C01D221B5C9FCA00064741 /* FYFilePathManager.h */,
+				85C01D231B5C9FCA00064741 /* FYFilePathManager.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		851277A91B5C972A006B87C5 /* com.memo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851277C11B5C972A006B87C5 /* Build configuration list for PBXNativeTarget "com.memo" */;
+			buildPhases = (
+				851277A61B5C972A006B87C5 /* Sources */,
+				851277A71B5C972A006B87C5 /* Frameworks */,
+				851277A81B5C972A006B87C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.memo;
+			productName = com.memo;
+			productReference = 851277AA1B5C972A006B87C5 /* com.memo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		851277A21B5C972A006B87C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					851277A91B5C972A006B87C5 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = WTL8R599V8;
+					};
+				};
+			};
+			buildConfigurationList = 851277A51B5C972A006B87C5 /* Build configuration list for PBXProject "com.memo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 851277A11B5C972A006B87C5;
+			productRefGroup = 851277AB1B5C972A006B87C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				851277A91B5C972A006B87C5 /* com.memo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		851277A81B5C972A006B87C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851277BA1B5C972A006B87C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		851277A61B5C972A006B87C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851277B21B5C972A006B87C5 /* AppDelegate.m in Sources */,
+				85C01D241B5C9FCA00064741 /* FYFilePathManager.m in Sources */,
+				853DA9041B5CBB8600B4211F /* FYTaskView.m in Sources */,
+				851277C91B5C97CB006B87C5 /* FYTaskListTableView.m in Sources */,
+				8578F5D51B5E521000A082E6 /* FYTaskListTableView_2.m in Sources */,
+				853DA9071B5CBCAD00B4211F /* FYTaskViewController.m in Sources */,
+				851277CC1B5C97DE006B87C5 /* TaskListTableViewController.m in Sources */,
+				85C01D211B5C9FBF00064741 /* FYPlistIO.m in Sources */,
+				851277AF1B5C972A006B87C5 /* main.m in Sources */,
+				85C01D1E1B5C9FB700064741 /* FYTaskInfoList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		851277BF1B5C972A006B87C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		851277C01B5C972A006B87C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		851277C21B5C972A006B87C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = com.memo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tarena.com-memo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		851277C31B5C972A006B87C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = com.memo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tarena.com-memo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		851277A51B5C972A006B87C5 /* Build configuration list for PBXProject "com.memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851277BF1B5C972A006B87C5 /* Debug */,
+				851277C01B5C972A006B87C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851277C11B5C972A006B87C5 /* Build configuration list for PBXNativeTarget "com.memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851277C21B5C972A006B87C5 /* Debug */,
+				851277C31B5C972A006B87C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 851277A21B5C972A006B87C5 /* Project object */;
+}
