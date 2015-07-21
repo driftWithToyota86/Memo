@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>0A42B422-875E-4082-9171-D1BB733750B1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>com.memo</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>8199DFBFAC3A9A44778309EDEF65388E0C0DD0DD</key>
 		<string>https://github.com/driftWithToyota86/Memo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>com.memo.xcodeproj</string>
+	<string>com.memo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8199DFBFAC3A9A44778309EDEF65388E0C0DD0DD</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>8199DFBFAC3A9A44778309EDEF65388E0C0DD0DD</string>
 			<key>IDESourceControlWCCName</key>
-			<string>FYMemo</string>
+			<string>Memo</string>
 		</dict>
 	</array>
 </dict>

@@ -12,9 +12,14 @@
 @interface FYTaskInfoList : NSObject
 @property (strong, nonatomic) NSString *taskSummary;
 @property (strong, nonatomic) NSString *taskDetails;
-@property (strong ,nonatomic) NSString *taskPriority;
+@property (strong, nonatomic) NSString *taskPriority;
+
 
 - (NSDictionary *)mergeTaskInfoWithTaskSummary: (NSString *)taskSummary andTaskDetails: (NSString *)taskDetails andPriority: (NSString *)taskPriority;
 
 - (BOOL)writeTaskInfoDicToFileWithTaskInfoDic: (NSDictionary *)taskInfoDic andFileName: (NSString *)fileName andFileExtension: (NSString *)fileExtension;
+
++ (BOOL)createFileWithFileName: (NSString *)fileName andFileExtension: (NSString *)fileExtension;
+
+- (BOOL)createTargetFileWithFileName: (NSString *)fileName andFileExtension: (NSString *)fileExtension;
 @end

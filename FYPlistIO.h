@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FYFilePathManager.h"
+#import "FYFileManager.h"
 
 @interface FYPlistIO : NSObject
 @property (strong, nonatomic) NSString *taskInfoPlistName;
-@property (strong, nonatomic) FYFilePathManager *filePathObj;
+@property (strong, nonatomic) FYFileManager *filePathObj;
 
 
 

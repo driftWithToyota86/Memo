@@ -17,7 +17,7 @@
 		8578F5D51B5E521000A082E6 /* FYTaskListTableView_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8578F5D41B5E521000A082E6 /* FYTaskListTableView_2.m */; };
 		85C01D1E1B5C9FB700064741 /* FYTaskInfoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C01D1D1B5C9FB700064741 /* FYTaskInfoList.m */; };
 		85C01D211B5C9FBF00064741 /* FYPlistIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C01D201B5C9FBF00064741 /* FYPlistIO.m */; };
-		85C01D241B5C9FCA00064741 /* FYFilePathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C01D231B5C9FCA00064741 /* FYFilePathManager.m */; };
+		85C01D241B5C9FCA00064741 /* FYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C01D231B5C9FCA00064741 /* FYFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +41,8 @@
 		85C01D1D1B5C9FB700064741 /* FYTaskInfoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTaskInfoList.m; sourceTree = "<group>"; };
 		85C01D1F1B5C9FBF00064741 /* FYPlistIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlistIO.h; sourceTree = "<group>"; };
 		85C01D201B5C9FBF00064741 /* FYPlistIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPlistIO.m; sourceTree = "<group>"; };
-		85C01D221B5C9FCA00064741 /* FYFilePathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYFilePathManager.h; path = ../FYFilePathManager.h; sourceTree = "<group>"; };
-		85C01D231B5C9FCA00064741 /* FYFilePathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYFilePathManager.m; path = ../FYFilePathManager.m; sourceTree = "<group>"; };
+		85C01D221B5C9FCA00064741 /* FYFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYFileManager.h; path = ../FYFileManager.h; sourceTree = "<group>"; };
+		85C01D231B5C9FCA00064741 /* FYFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYFileManager.m; path = ../FYFileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +137,8 @@
 		853DA9011B5CB68200B4211F /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				85C01D221B5C9FCA00064741 /* FYFilePathManager.h */,
-				85C01D231B5C9FCA00064741 /* FYFilePathManager.m */,
+				85C01D221B5C9FCA00064741 /* FYFileManager.h */,
+				85C01D231B5C9FCA00064741 /* FYFileManager.m */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -213,7 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				851277B21B5C972A006B87C5 /* AppDelegate.m in Sources */,
-				85C01D241B5C9FCA00064741 /* FYFilePathManager.m in Sources */,
+				85C01D241B5C9FCA00064741 /* FYFileManager.m in Sources */,
 				853DA9041B5CBB8600B4211F /* FYTaskView.m in Sources */,
 				851277C91B5C97CB006B87C5 /* FYTaskListTableView.m in Sources */,
 				8578F5D51B5E521000A082E6 /* FYTaskListTableView_2.m in Sources */,

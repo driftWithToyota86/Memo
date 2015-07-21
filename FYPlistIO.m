@@ -21,13 +21,13 @@
 }
 
 - (BOOL)InputPlistWithTaskInfoPlistName: (NSString *)taskInfoPlistName andTaskInfoDic: (NSDictionary *)taskInfoDic {
-	self.filePathObj = [[FYFilePathManager alloc] init];
+	self.filePathObj = [[FYFileManager alloc] init];
 	return [self.filePathObj createTaskInfoPlistWithFileName:taskInfoPlistName andDic:taskInfoDic];
 }
 
 
 - (NSString *)OutputPlistWithTaskInfoPlistName: (NSString *)taskInfoPlistName {
-	FYFilePathManager *filePathManager =[[FYFilePathManager alloc] init];
+	FYFileManager *filePathManager =[[FYFileManager alloc] init];
 	return [filePathManager getTaskInfoPlistPathWitFileName:taskInfoPlistName andFileExtension:self -> _taskInfoPlistExtension];
 }
 @end
