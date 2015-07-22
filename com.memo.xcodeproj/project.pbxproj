@@ -14,9 +14,7 @@
 		851277CC1B5C97DE006B87C5 /* TaskListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851277CB1B5C97DE006B87C5 /* TaskListTableViewController.m */; };
 		853DA9041B5CBB8600B4211F /* FYTaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 853DA9031B5CBB8600B4211F /* FYTaskView.m */; };
 		853DA9071B5CBCAD00B4211F /* FYTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853DA9061B5CBCAD00B4211F /* FYTaskViewController.m */; };
-		8578F5D51B5E521000A082E6 /* FYTaskListTableView_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8578F5D41B5E521000A082E6 /* FYTaskListTableView_2.m */; };
 		85C01D1E1B5C9FB700064741 /* FYTaskInfoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C01D1D1B5C9FB700064741 /* FYTaskInfoList.m */; };
-		85C01D211B5C9FBF00064741 /* FYPlistIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C01D201B5C9FBF00064741 /* FYPlistIO.m */; };
 		85C01D241B5C9FCA00064741 /* FYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C01D231B5C9FCA00064741 /* FYFileManager.m */; };
 /* End PBXBuildFile section */
 
@@ -35,14 +33,10 @@
 		853DA9031B5CBB8600B4211F /* FYTaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTaskView.m; sourceTree = "<group>"; };
 		853DA9051B5CBCAD00B4211F /* FYTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTaskViewController.h; sourceTree = "<group>"; };
 		853DA9061B5CBCAD00B4211F /* FYTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTaskViewController.m; sourceTree = "<group>"; };
-		8578F5D31B5E521000A082E6 /* FYTaskListTableView_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTaskListTableView_2.h; sourceTree = "<group>"; };
-		8578F5D41B5E521000A082E6 /* FYTaskListTableView_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTaskListTableView_2.m; sourceTree = "<group>"; };
 		85C01D1C1B5C9FB700064741 /* FYTaskInfoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYTaskInfoList.h; sourceTree = "<group>"; };
 		85C01D1D1B5C9FB700064741 /* FYTaskInfoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTaskInfoList.m; sourceTree = "<group>"; };
-		85C01D1F1B5C9FBF00064741 /* FYPlistIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYPlistIO.h; sourceTree = "<group>"; };
-		85C01D201B5C9FBF00064741 /* FYPlistIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYPlistIO.m; sourceTree = "<group>"; };
-		85C01D221B5C9FCA00064741 /* FYFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYFileManager.h; path = ../FYFileManager.h; sourceTree = "<group>"; };
-		85C01D231B5C9FCA00064741 /* FYFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYFileManager.m; path = ../FYFileManager.m; sourceTree = "<group>"; };
+		85C01D221B5C9FCA00064741 /* FYFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFileManager.h; sourceTree = "<group>"; };
+		85C01D231B5C9FCA00064741 /* FYFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +97,6 @@
 				851277C81B5C97CB006B87C5 /* FYTaskListTableView.m */,
 				853DA9021B5CBB8600B4211F /* FYTaskView.h */,
 				853DA9031B5CBB8600B4211F /* FYTaskView.m */,
-				8578F5D31B5E521000A082E6 /* FYTaskListTableView_2.h */,
-				8578F5D41B5E521000A082E6 /* FYTaskListTableView_2.m */,
 			);
 			name = View;
 			path = ..;
@@ -125,10 +117,10 @@
 		851277C61B5C9772006B87C5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				85C01D221B5C9FCA00064741 /* FYFileManager.h */,
+				85C01D231B5C9FCA00064741 /* FYFileManager.m */,
 				85C01D1C1B5C9FB700064741 /* FYTaskInfoList.h */,
 				85C01D1D1B5C9FB700064741 /* FYTaskInfoList.m */,
-				85C01D1F1B5C9FBF00064741 /* FYPlistIO.h */,
-				85C01D201B5C9FBF00064741 /* FYPlistIO.m */,
 			);
 			name = Model;
 			path = ..;
@@ -137,8 +129,6 @@
 		853DA9011B5CB68200B4211F /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				85C01D221B5C9FCA00064741 /* FYFileManager.h */,
-				85C01D231B5C9FCA00064741 /* FYFileManager.m */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -216,10 +206,8 @@
 				85C01D241B5C9FCA00064741 /* FYFileManager.m in Sources */,
 				853DA9041B5CBB8600B4211F /* FYTaskView.m in Sources */,
 				851277C91B5C97CB006B87C5 /* FYTaskListTableView.m in Sources */,
-				8578F5D51B5E521000A082E6 /* FYTaskListTableView_2.m in Sources */,
 				853DA9071B5CBCAD00B4211F /* FYTaskViewController.m in Sources */,
 				851277CC1B5C97DE006B87C5 /* TaskListTableViewController.m in Sources */,
-				85C01D211B5C9FBF00064741 /* FYPlistIO.m in Sources */,
 				851277AF1B5C972A006B87C5 /* main.m in Sources */,
 				85C01D1E1B5C9FB700064741 /* FYTaskInfoList.m in Sources */,
 			);
