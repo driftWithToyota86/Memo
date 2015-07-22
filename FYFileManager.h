@@ -34,9 +34,26 @@
 + (NSString *)getFilePathWithFileName: (NSString *)fileName andFileExtension: (NSString *)fileExtension;
 
 
+/**
+ *  <#Description#>
+ *
+ *  @param content       <#content description#>
+ *  @param fileName      <#fileName description#>
+ *  @param fileExtension <#fileExtension description#>
+ *
+ *  @return <#return value description#>
+ */
 + (BOOL)writeFileWithContent: (id)content andFileName: (NSString *)fileName andFileExtension: (NSString *)fileExtension;
 
 
+/**
+ *  <#Description#>
+ *
+ *  @param fileName      <#fileName description#>
+ *  @param fileExtension <#fileExtension description#>
+ *
+ *  @return <#return value description#>
+ */
 + (id)readFileWithFileName: (NSString *)fileName andFileExtension: (NSString *)fileExtension;
 
 

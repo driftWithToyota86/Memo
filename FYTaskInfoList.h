@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FYPlistIO.h"
 
 @interface FYTaskInfoList : NSObject
 @property (strong, nonatomic) NSString *taskSummary;
